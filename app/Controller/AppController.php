@@ -54,7 +54,7 @@ class AppController extends Controller {
         $this->set('cep', '93520-000');
         $this->set('lat', -29.680013);
         $this->set('lng', -51.12933);
-        $this->set('address', 'Rua Bento Gonçalves, 3027, Loja 1, Centro, Novo Hamburgo - RS');
+        $this->set('address', 'Rua Bento Gonçalves, 3023, Loja 1, Centro, Novo Hamburgo - RS');
         $this->set('email', 'contato@sardonixidiomas.com');
         $this->set('phone', '(51) 3066-8188');
         $news = $this->New->find('all', array('order' => 'datetime DESC'));
